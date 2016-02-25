@@ -1,2 +1,2 @@
-# central-notes
-A repo for notes
+# central-notes and central-scripts
+A repo for notes and scripts
