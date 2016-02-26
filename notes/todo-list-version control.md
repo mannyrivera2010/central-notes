@@ -8,7 +8,7 @@
 ## Client - Server
  - To the client every todolist is a version controlled object
  - All playlists of a user is synced on login
- -- Fetch all new changes
+  - Fetch all new changes
 
 ## Reference
 http://www.slideshare.net/planetcassandra/c-summit-eu-2013-playlists-at-spotify-using-cassandra-to-store-version-controlled-objects
@@ -19,7 +19,12 @@ http://www.slideshare.net/planetcassandra/c-summit-eu-2013-playlists-at-spotify-
   - GET: Get the most recent snapshot
   - APPEND: Add/Move/Delete Tracks
 
-### Data Model Using 
+### Client Server Interaction
+
+
+
+### Data Model 
+ - Using Map<String, Map<String, String>>
 
 
 Inspired by http://www.slideshare.net/planetcassandra/c-summit-eu-2013-playlists-at-spotify-using-cassandra-to-store-version-controlled-objects
