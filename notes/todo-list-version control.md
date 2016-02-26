@@ -27,4 +27,6 @@ http://www.slideshare.net/planetcassandra/c-summit-eu-2013-playlists-at-spotify-
  - Using Map<String, Map<String, String>>
 
 
-Inspired by http://www.slideshare.net/planetcassandra/c-summit-eu-2013-playlists-at-spotify-using-cassandra-to-store-version-controlled-objects
+Inspired by 
+ - http://www.slideshare.net/planetcassandra/c-summit-eu-2013-playlists-at-spotify-using-cassandra-to-store-version-controlled-objects
+ - https://www.quora.com/How-does-Google-Docs-programmatically-allow-multiple-users-to-edit-the-same-document
