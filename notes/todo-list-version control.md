@@ -15,9 +15,9 @@ http://www.slideshare.net/planetcassandra/c-summit-eu-2013-playlists-at-spotify-
 
 ### Planning a Data Model
  - Three Common Playlist Operations
- -- SYNC: Get all changes since a particular revision
- -- GET: Get the most recent snapshot
- -- APPEND: Add/Move/Delete Tracks
+  - SYNC: Get all changes since a particular revision
+  - GET: Get the most recent snapshot
+  - APPEND: Add/Move/Delete Tracks
 
 ### Data Model Using 
 
