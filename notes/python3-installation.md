@@ -9,7 +9,7 @@ https://www.python.org/downloads/
 
 3) Compile Python Source
 ```shell
-$ ./configure --prefix=/home/user/sources/compiled/python3.4_dev --with-ensurepip=install
+$ ./configure --prefix=/home/{user}/sources/compiled/python3.4_dev --with-ensurepip=install
 $ make
 ```
     
