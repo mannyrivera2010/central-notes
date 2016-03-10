@@ -9,9 +9,15 @@ https://www.python.org/downloads/
 
 3) Compile Python Source
 ```shell
-$ ./configure --prefix=/home/{user}/sources/compiled/python3.4_dev --with-ensurepip=install
+$ ./configure --with-ensurepip=install
 $ make
 ```
+
+4)Making a 
+````
+ ~/{Python Compiled Directory}/python -m venv env    
+source env/bin/activate
+````
     
 Debugging Help    
 http://stackoverflow.com/questions/22592686/compiling-python-3-4-is-not-copying-pip
