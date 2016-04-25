@@ -18,6 +18,7 @@ $ make
 $ {Python Compiled Directory}/python -m venv {directory_where_you_want_it}/env    
 $ cd {directory_where_you_want_it}
 $ source env/bin/activate
+$ pip install -r requirements.txt
 ````
     
 Debugging Help    
