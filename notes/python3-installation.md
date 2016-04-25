@@ -15,8 +15,9 @@ $ make
 
 4)Making a virtual enviroment 
 ````
-{Python Compiled Directory}/python -m venv {Directory }/env    
-source env/bin/activate
+$ {Python Compiled Directory}/python -m venv {directory_where_you_want_it}/env    
+$ cd {directory_where_you_want_it}
+$ source env/bin/activate
 ````
     
 Debugging Help    
