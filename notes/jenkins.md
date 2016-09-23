@@ -21,7 +21,7 @@ Build Environment:
 -- Time-out strategy: Absolute , Timeout minutes: 15
 Build: 
 Execute Shell:
-````
+````bash
 # create clean python env
 rm -rf ~/python_envs/ci-env/
 mkdir ~/python_envs/ci-env/
@@ -38,3 +38,16 @@ pip install -r requirements.txt --no-cache-dir -I
 # make the release
 python release.py --no-version
 ````
+
+Post-build Actions: 
+Archive the artifacts: backend*.tar.gz
+
+Send Build artifacts over SSH:
+ci-latest.domain.net
+Transers:
+Exec command: ````sudo /home/jenkins/ozp_deploy.sh ${JOB_NAME} ${BUILD_NUMBER}````
+
+Delete Workspace when build is done.
+
+
+
