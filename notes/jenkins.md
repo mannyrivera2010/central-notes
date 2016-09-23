@@ -155,6 +155,23 @@ Exec command: ````sudo /home/jenkins/ozp_deploy.sh ${JOB_NAME} ${BUILD_NUMBER}``
 
 Delete Workspace when build is done.
 
+### ozp-react commons
+...
+build:
+````
+#!/usr/bin/env bash
+source /usr/local/node_versions/set_node_version.sh 5.3.0
+echo "node version: "
+node -v
+npm install
+npm run test
+````
+
+post-build actions:
+Build other projects:
+projects to build: build-center-latest,build-hud-latest
+-Trigger only if build is stable
+
 ### ozp_deploy.sh
 ````bash
 #! /bin/bash
