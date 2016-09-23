@@ -152,5 +152,9 @@ Exec command: ````sudo /home/jenkins/ozp_deploy.sh ${JOB_NAME} ${BUILD_NUMBER}``
 
 Delete Workspace when build is done.
 
+### ozp_deploy.sh
+````bash
+#! /bin/bash
 
-
+python /home/jenkins/dev-tools/jenkins-ansible-deployer/jenkins_ansible_deployer.py $1 $2
+````
