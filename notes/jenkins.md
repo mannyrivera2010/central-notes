@@ -1,3 +1,6 @@
+### Reading
+https://chromatichq.com/blog/automated-servers-and-deployments-ansible-jenkins
+
 ### Setting up Jenkins for python project (ozp-backend)
 Project name: build-backend-latest
 Github Project: https://github.com/aml-development/ozp-backend/
