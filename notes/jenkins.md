@@ -158,3 +158,6 @@ Delete Workspace when build is done.
 
 python /home/jenkins/dev-tools/jenkins-ansible-deployer/jenkins_ansible_deployer.py $1 $2
 ````
+
+
+https://github.com/aml-development/dev-tools/blob/master/jenkins-ansible-deployer/jenkins_ansible_deployer.py
