@@ -1,1 +1,21 @@
+### Setting up Jenkins for python project (ozp-backend)
+Setting up new job config
 
+
+Project name: build-backend-latest
+Github Project: https://github.com/aml-development/ozp-backend/
+Throttle Concurrent Builds: 
+- Maximum Total Concurrent Builds = 1
+- Maximum Concurrent Builds Per Node = 1
+Restrict where this project can be run: ci-jenkins.amlng.di2e.net
+Source Code Management: 
+- Repositories: https://github.com/aml-development/ozp-backend.git
+- Credentials: - none -
+Branches to build: */master
+Git executable: Default
+Build Triggers: 
+- Build when a change is pushed to GitHub
+Build Environment:
+- Delete workspace before build starts
+- Abort the build if it's stuck
+-- Time-out strategy
