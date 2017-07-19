@@ -5,6 +5,7 @@
 [alias]
      st = status
      ci = commit
+     pu = pull --all -p
      co = checkout
      fu = reset --hard
      sb = shortlog -s -n
