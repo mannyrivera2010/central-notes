@@ -1,9 +1,10 @@
 
+Skill Tree (Very nice)    
+https://github.com/kamranahmedse/developer-roadmap
+
 https://realpython.com/instance-class-and-static-methods-demystified/
 
 https://www.digitalocean.com/community/tutorials/how-to-use-args-and-kwargs-in-python-3
-
-
 
 Python 3
 
