@@ -6,16 +6,16 @@ https://www.digitalocean.com/community/tutorials/how-to-use-args-and-kwargs-in-p
 
 
 Python 3
-https://docs.python.org/3/
-https://docs.python.org/3/reference/index.html
+https://docs.python.org/3/    
+https://docs.python.org/3/reference/index.html    
 
 Python 3 Learning
-https://developers.google.com/edu/python/  (Very Nice) Good Site to learn python
-https://www.programiz.com/python-programming
-https://realpython.com/python3-object-oriented-programming/
-https://www.programiz.com/python-programming
+https://developers.google.com/edu/python/  (Very Nice) Good Site to learn python    
+https://www.programiz.com/python-programming    
+https://realpython.com/python3-object-oriented-programming/    
+https://www.programiz.com/python-programming    
 
-https://www.educba.com/python-programming-beginners-tutorial/
+https://www.educba.com/python-programming-beginners-tutorial/    
 
 
 Django
@@ -39,7 +39,9 @@ https://medium.com/shecodeafrica/understanding-the-mvc-pattern-in-django-edda05b
 https://medium.com/@djstein/modern-django-part-2-rest-apis-apps-and-django-rest-framework-ea0cac5ab104 (Very Nice)
 
 Rest Concepts
+
 https://spring.io/understanding/REST
+
 https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340
 
 Django Rest Framework
@@ -60,12 +62,11 @@ http://www.django-rest-framework.org/tutorial/6-viewsets-and-routers/
 
 http://www.django-rest-framework.org/api-guide/testing/
 
-Backend Documentation
-https://aml-development.github.io/ozp-backend/
 
 Elasticsearch 6.3 Reference
 
 https://www.elastic.co/guide/en/elasticsearch/reference/6.3/index.html
 
 Picture of Django and Django Rest Framework
+
 https://imgur.com/r/Python/zA2n7FK (Very Nice) 
