@@ -15,3 +15,20 @@ def count_value(input_string):
 
 count_value(string_1)
 ```
+```
+The value 1 has 3 occurrences
+The value 2 has 2 occurrences
+The value 3 has 1 occurrences
+The value 4 has 2 occurrences
+The value 5 has 4 occurrences
+The value 6 has 2 occurrences
+The value 7 has 1 occurrences
+The value 8 has 2 occurrences
+The value 9 has 1 occurrences
+The value a has 2 occurrences
+The value b has 1 occurrences
+The value d has 1 occurrences
+The value i has 2 occurrences
+The value k has 3 occurrences
+The value m has 3 occurrences
+```
