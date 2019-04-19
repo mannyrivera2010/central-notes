@@ -58,7 +58,7 @@ Understand the difference between `Inner Object` and `Nested Object`.
 [How Inner Objects are Indexed](https://www.elastic.co/guide/en/elasticsearch/guide/master/complex-core-fields.html#_how_inner_objects_are_indexed)  
 [Nested Objects](https://www.elastic.co/guide/en/elasticsearch/guide/master/nested-objects.html)
 
-### Mapping Example
+### Nested Object Mapping Example
 ```
 PUT /my_index
 {
@@ -122,8 +122,23 @@ PUT /my_index
 }
 ```
 
+# Tip 
+Luence Field Types
 
-
+[Lucene Field JavaDoc](https://lucene.apache.org/core/7_3_1/core/org/apache/lucene/document/Field.html)
+```
+TextField: Reader or String indexed for full-text search
+StringField: String indexed verbatim as a single token
+IntPoint: int indexed for exact/range queries.
+LongPoint: long indexed for exact/range queries.
+FloatPoint: float indexed for exact/range queries.
+DoublePoint: double indexed for exact/range queries.
+SortedDocValuesField: byte[] indexed column-wise for sorting/faceting
+SortedSetDocValuesField: SortedSet<byte[]> indexed column-wise for sorting/faceting
+NumericDocValuesField: long indexed column-wise for sorting/faceting
+SortedNumericDocValuesField: SortedSet<long> indexed column-wise for sorting/faceting
+StoredField: Stored-only value for retrieving in summary results
+```
 
 
 # Links
