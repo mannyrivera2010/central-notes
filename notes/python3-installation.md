@@ -24,3 +24,6 @@ $ pip install -r requirements.txt
 Debugging Help    
 http://stackoverflow.com/questions/22592686/compiling-python-3-4-is-not-copying-pip     
 http://stackoverflow.com/questions/8915296/python-image-library-fails-with-message-decoder-jpeg-not-available-pil
+
+
+https://readthisblog.net/2018/08/13/til-how-to-build-python-3-7-with-statically-linked-libssl-and-libcrypto/
